@@ -1,0 +1,81 @@
+{
+  "retrained_2018": {
+    "S0": {
+      "accuracy": 0.9425611222358683,
+      "macro_f1": 0.31517589619572506,
+      "weighted_f1": 0.9316735013869383
+    },
+    "S1": {
+      "accuracy": 0.91946942436372,
+      "macro_f1": 0.2942708179804513,
+      "weighted_f1": 0.9295360803655394
+    },
+    "S2": {
+      "accuracy": 0.9389541198763682,
+      "macro_f1": 0.2718963829535717,
+      "weighted_f1": 0.9284548802405803
+    },
+    "S3": {
+      "accuracy": 0.9298495039027465,
+      "macro_f1": 0.26784778628094946,
+      "weighted_f1": 0.9245895130840764
+    },
+    "S4": {
+      "accuracy": 0.8813861901494637,
+      "macro_f1": 0.080706875041809,
+      "weighted_f1": 0.852343107133376
+    }
+  },
+  "privacy_metrics_2018": {
+    "S0": {
+      "mean_entropy": 0.515,
+      "uniqueness": 0.0337,
+      "k_min": 1,
+      "k_mean": 29.7
+    },
+    "S1": {
+      "mean_entropy": 0.5613,
+      "uniqueness": 0.0217,
+      "k_min": 1,
+      "k_mean": 46.1
+    },
+    "S2": {
+      "mean_entropy": 0.4946,
+      "uniqueness": 0.0217,
+      "k_min": 1,
+      "k_mean": 46.0
+    },
+    "S3": {
+      "mean_entropy": 0.186,
+      "uniqueness": 0.0051,
+      "k_min": 1,
+      "k_mean": 194.6
+    },
+    "S4": {
+      "mean_entropy": 0.0,
+      "uniqueness": 0.0,
+      "k_min": 50000,
+      "k_mean": 50000.0
+    }
+  },
+  "class_names_2018": [
+    "BENIGN",
+    "Bot",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS Slowloris",
+    "FTP-Patator",
+    "Infiltration",
+    "WebAttack-BruteForce",
+    "WebAttack-SqlInjection",
+    "WebAttack-XSS"
+  ],
+  "n_classes_2018": 12,
+  "missing_classes_vs_2017": [
+    "Heartbleed",
+    "PortScan",
+    "SSH-Patator"
+  ]
+}
